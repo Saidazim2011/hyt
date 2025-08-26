@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="player">
+    <h2>Music App</h2>
+    
+    <select id="songSelect">
+      <option value="montagen.mp3">Music 1</option>
+      <option value="delicia.mp3">Music 2</option>
+      <option value="marogata.mp3">Music 3</option>
+    </select>
+    
+    <audio id="audio">
+      <source src="montagen.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="controls">
+      <button class="btn" id="prev">⏮</button>
+      <button class="btn" id="play">⏯</button>
+      <button class="btn" id="next">⏭</button>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
